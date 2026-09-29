@@ -52,3 +52,96 @@ Personalized Support Response
 The core memory operations are:
 
 * **Retain** — stores important information from customer interactions.
+* **Recall** — retrieves relevant information when the customer contacts support again.
+
+## 🛠️ Technology Stack
+
+* Python
+* Hindsight
+* Hindsight Python Client
+* Google Colab
+* AI / LLM
+* GitHub
+
+## ⭐ Key Features
+
+* 🧠 Persistent customer memory
+* 🔍 Recall of previous issues and solutions
+* 👤 Personalized customer support
+* 💬 Conversation-aware responses
+* 🔄 Reuse of previously successful troubleshooting
+* 📈 Designed to improve over repeated interactions
+
+## 🎯 Example
+
+### First Interaction
+
+**Customer:**
+"My checkout payment is failing."
+
+**Agent:**
+"Let's troubleshoot your checkout issue."
+
+The agent stores useful information about the issue and successful solution.
+
+### Later Interaction
+
+**Customer:**
+"I'm having trouble with checkout again."
+
+**Agent:**
+"I remember you previously had a checkout payment issue that was resolved by clearing your browser cache. Would you like to try that first?"
+
+Instead of asking the customer to repeat their entire history, the agent uses remembered context.
+
+## 🏗️ Project Structure
+
+```text
+memory-support-agent/
+│
+├── README.md
+│
+└── Memory_Support_Agent.ipynb
+```
+
+## ▶️ Running the Project
+
+1. Open the `.ipynb` notebook in Google Colab.
+2. Install the required Python packages.
+3. Configure the Hindsight API key.
+4. Create the Hindsight memory client.
+5. Store customer information using the memory system.
+6. Recall relevant information for future conversations.
+7. Generate a personalized support response.
+
+## 🔐 API Key
+
+Do **not** commit your real API key to GitHub.
+
+Use an environment variable or enter the key securely in the notebook when running the project.
+
+##  Why This Project
+
+Customer support should not make customers repeat the same story every time they contact a company.
+
+Memory Support Agent demonstrates how persistent AI memory can make support conversations more contextual and personalized.
+
+The project focuses on the hackathon theme:
+
+> **AI Agents That Learn Using Hindsight**
+
+## 🔮 Future Improvements
+
+* Multi-customer memory management
+* Customer sentiment and frustration tracking
+* Integration with support-ticket systems
+* Automatic summarization of long conversations
+* Analytics showing how memory improves support
+* Production deployment as a web application
+
+##  Hackathon Project
+
+Built for **Hack with Hyderabad 3.0**.
+
+The project uses **Hindsight** as the core memory component.
+
